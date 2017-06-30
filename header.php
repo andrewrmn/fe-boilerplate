@@ -35,7 +35,7 @@
 <header class="site-header">
     <div class="wrapper-wide">
         <h1 class="logo" itemscope itemtype="http://schema.org/Organization">
-            <a href="index.php" itemprop="url">
+            <a href="/" itemprop="url">
                 <span class="sr-only" itemprop="name">Front end boilerplate</span>
                 A
             </a>

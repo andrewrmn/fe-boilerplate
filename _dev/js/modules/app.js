@@ -43,19 +43,6 @@ class App {
 				});
 			}
 		});
-
-
-		// $(function() {
-		//     $('.language-markup').each(function() {
-		//         var pre = $(this);
-		//         pre.html(htmlEncode(pre.html()));
-		//     });
-		// });
-		//
-		// function htmlEncode(value){
-		//   return $('<div/>').text(value).html();
-		// }
-
 	}
 
 	noTouch() {
