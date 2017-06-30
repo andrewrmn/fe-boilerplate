@@ -9,19 +9,21 @@
 	z-index: 10;
 	width: 100%;
 	background: $white;
+	border-bottom: 1px solid #eaeaea;
 
 	@include stop-at($header-breakpoint) {
 		position: fixed;
 		left: 0;
 		top: 0;
-		border-top: 1px solid $white;
+
 	}
 }
 
 $header-height-sm: 60px;
 $header-height: 72px;
 
-.site-header .wrapper {
+.site-header .wrapper,
+.site-header .wrapper-wide {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
