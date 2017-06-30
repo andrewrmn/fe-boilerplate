@@ -1,0 +1,88 @@
+// ---------------------------------------------------------------------
+//  Utility Classes
+// ---------------------------------------------------------------------
+
+.has-accent {
+
+    &:after {
+        content: "";
+        width: 100px;
+        height: 2px;
+        display: block;
+        background: $brand;
+        margin: 20px auto;
+    }
+}
+
+// ----------------------------------------
+// Flex Layouts
+// ----------------------------------------
+
+.flex {
+    display: flex;
+}
+
+.flex--align-center {
+    align-items: center;
+}
+
+.flex--justify-between {
+    justify-content: space-between;
+}
+
+.flex__grow {
+    flex-grow: 1;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.inline-content {
+    display: flex;
+    align-items: flex-start;
+
+    > * {
+        margin-right: 20px;
+    }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.group {
+    @include clearfix;
+}
+
+.is-hidden {
+    display: none;
+}
+
+@include stop-at($small) {
+    .is-hidden-xs {
+        display: none;
+    }
+}
+
+@include stop-at($medium) {
+    .is-hidden-sm {
+        display: none;
+    }
+}
+
+.sr-only,
+.screen-reader-text {
+    @include visually-hidden;
+}
+
+.text-center {
+    text-align: center;
+
+    p, img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

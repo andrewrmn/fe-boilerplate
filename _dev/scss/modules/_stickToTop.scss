@@ -1,0 +1,20 @@
+// ---------------------------------------------------------------------
+//  Stick to top
+// ---------------------------------------------------------------------
+
+@include stop-at($medium) {
+	.is-sticky .stickToTop--after--sm {
+		position: static;
+	}
+}
+
+@include stop-at($large) {
+	.is-sticky .stickToTop--after--md {
+		position: static;
+	}
+}
+
+.is-sticky .stickToTop {
+	position: fixed;
+	top: 0;
+}

@@ -1,0 +1,49 @@
+// ---------------------------------------------------------------------
+//  Section Styles (Vertical Spacing)
+// ---------------------------------------------------------------------
+
+//$padding: 48px;
+
+.section {
+    display: block;
+    padding: 36px 0;
+    @include clearfix;
+
+    @include start-at($medium) {
+        padding: 48px 0;
+    }
+}
+
+.section--short {
+    padding: 18px 0;
+
+    @include start-at($medium) {
+        padding: 24px 0;
+    }
+}
+
+.section--tall {
+    padding: 60px 0;
+
+    @include start-at($medium) {
+        padding: 72px 0;
+    }
+}
+
+.section--flush-bottom {
+    padding-bottom: 0;
+}
+
+.section--flush-top {
+    padding-top: 0;
+}
+
+
+// ----------------------------------------
+//  Section Full
+// ----------------------------------------
+
+.section-full {
+    height: 100vh;
+    min-height: 450px;
+}
