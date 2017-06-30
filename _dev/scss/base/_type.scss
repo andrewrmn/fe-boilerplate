@@ -9,7 +9,7 @@
 @mixin base-heading-styles {
     display: block;
     font-family: $sans-serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 
@@ -49,11 +49,13 @@
 @mixin h5 {
     font-size: 1.8rem;
     line-height: 1.4;
+    font-weight: 700;
 }
 
 @mixin h6 {
     font-size: 1.6rem;
     line-height: 1.4;
+    font-weight: 700;
 }
 
 

@@ -32,8 +32,9 @@
         <!-- Scripts -->
         <script type="text/javascript" src="build/js/main.js"></script>
 
+        <!-- SVG Output -->
         <div class="is-hidden">
-            <?php include("build/images/svgs/svgs.svg"); ?>
+            <?php include('build/images/svgs/svgs.svg'); ?>
         </div>
     </body>
 </html>

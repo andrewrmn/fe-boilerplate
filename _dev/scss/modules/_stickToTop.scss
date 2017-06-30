@@ -2,19 +2,13 @@
 //  Stick to top
 // ---------------------------------------------------------------------
 
-@include stop-at($medium) {
-	.is-sticky .stickToTop--after--sm {
-		position: static;
-	}
+.stickToTop {
+	position: sticky;
+	top: 0;
 }
 
-@include stop-at($large) {
-	.is-sticky .stickToTop--after--md {
-		position: static;
-	}
-}
-
-.is-sticky .stickToTop {
-	position: fixed;
+.is-sticky {
+	padding: 10px 0;
+	position: sticky;
 	top: 0;
 }
